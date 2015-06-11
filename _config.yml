@@ -1,1 +1,1 @@
-exclude: [.gitignore, ctl/]
+exclude: [.gitignore, ctl/, blocks/]
