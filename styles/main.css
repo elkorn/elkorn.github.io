@@ -28,11 +28,9 @@ body {
 }
 
 blockquote {
-    font-size: 5em;
-    margin-top: 5em;
-    text-align: center;
-}
-
+  font-size: 5em;
+  text-align: center;
+}j
 a {
 	color: #f0f0f0;
 	text-decoration: none;
@@ -42,12 +40,9 @@ a:hover {
 	color: #000;
 }
 
-.main,
-.container > header {
-	width: 90%;
-	max-width: 70em;
-	margin: 0 auto;
-	padding: 0 4em 3.125em 6em;
+.aphorism {
+  font-size: 5em;
+  text-align: center;
 }
 
 .main {
