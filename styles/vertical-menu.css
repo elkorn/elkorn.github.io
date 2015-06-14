@@ -3,12 +3,20 @@
 	overflow: hidden;
 	top: 0;
 	left: 0;
-	height: 100%;
+	height: 5em;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	background: #f7f7f7;
   border-right: 1px solid rgba(0,0,0,.05);
+  border-bottom-right-radius: 10px;
+	-webkit-transition: height 0.3s ease-in-out;
+	-moz-transition: height 0.3s ease-in-out;
+	transition: height 0.3s ease-in-out;
+}
+
+.vimenu:hover {
+  height: 100%;
 }
 
 .vimenu li a {

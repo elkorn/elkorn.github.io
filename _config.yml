@@ -1,1 +1,2 @@
 exclude: [.gitignore, ctl/, blocks/, dev/]
+permalink: pretty

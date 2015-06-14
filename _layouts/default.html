@@ -1,0 +1,21 @@
+---
+---
+<html>
+    <head>
+        <title>elkorn</title>
+        <link href="../styles/normalize.css" rel="stylesheet"/>
+        <link href="../styles/icomoon.css" rel="stylesheet"/>
+        <link href="../styles/vertical-menu.css" rel="stylesheet"/>
+        <link href="../styles/main.css" rel="stylesheet"/>
+    </head>
+    <body>
+        {% include menu.html section=page.section %}
+        <header class="clearfix">
+            <span>About me</span>
+            <h1>Korneliusz Caputa</h1>
+        </header>
+        <article class="main">
+            {{content}}
+        </article>
+    </body>
+</html>

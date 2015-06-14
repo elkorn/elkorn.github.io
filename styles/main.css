@@ -30,7 +30,8 @@ body {
 blockquote {
   font-size: 5em;
   text-align: center;
-}j
+}
+
 a {
 	color: #f0f0f0;
 	text-decoration: none;
@@ -40,9 +41,12 @@ a:hover {
 	color: #000;
 }
 
-.aphorism {
-  font-size: 5em;
-  text-align: center;
+.main,
+header {
+	width: 90%;
+	max-width: 70em;
+	margin: 0 auto;
+	padding: 0 4em 3.125em 6em;
 }
 
 .main {
@@ -64,11 +68,11 @@ a:hover {
 	text-align: left;
 }
 
-.container > header {
+header {
 	padding: 2.875em 4em 1.875em 6em;
 }
 
-.container > header h1 {
+header h1 {
 	font-size: 2.125em;
 	line-height: 1.3;
 	margin: 0;
@@ -76,7 +80,7 @@ a:hover {
 	font-weight: 400;
 }
 
-.container > header span {
+header span {
 	display: block;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -84,11 +88,11 @@ a:hover {
 	padding: 0 0 0.6em 0.1em;
 }
 
-.container > header nav {
+header nav {
 	float: right;
 }
 
-.container > header nav a {
+header nav a {
 	display: block;
 	float: left;
 	position: relative;
@@ -102,7 +106,7 @@ a:hover {
 	text-indent: -8000px;
 }
 
-.container > header nav a:after {
+header nav a:after {
 	content: attr(data-info);
 	color: #47a3da;
 	position: absolute;
@@ -114,14 +118,14 @@ a:hover {
 	pointer-events: none;
 }
 
-.container > header nav a:hover:after {
+header nav a:hover:after {
 	opacity: 1;
 }
 
-.container > header nav a:hover {
+header nav a:hover {
 	background: #47a3da;
 }
 
-.container > header nav a:hover:before {
+header nav a:hover:before {
 	color: #fff;
 }

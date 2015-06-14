@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>{{page.title}} | elkorn blog</title>
+        <link href="/styles/normalize.css" rel="stylesheet"/>
+        <link href="/styles/icomoon.css" rel="stylesheet"/>
+        <link href="/styles/vertical-menu.css" rel="stylesheet"/>
+        <link href="/styles/grid.css" rel="stylesheet"/>
+        <link href="/styles/main.css" rel="stylesheet"/>
+        <link href="/styles/blog.css" rel="stylesheet"/>
+    </head>
+    <body>
+        {% include menu.html section='blog' %}
+        <header class="clearfix">
+            <!-- <span>Blog</span> -->
+            <h1>Blog</h1>
+        </header>
+        <article class="main">
+            <h2>{{page.title}}</h2>
+            {{content}}
+        </article>
+    </body>
+</html>

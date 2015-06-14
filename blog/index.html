@@ -1,0 +1,27 @@
+---
+layout: blog
+title: All posts
+---
+
+<ul class="posts">
+    {% for post in site.posts %}
+    <li class="posts__post">
+        <a href="{{post.url}}">
+            <section>
+                <h3 class="posts__post__title">
+                    <span>{{post.title}}</span>
+                    <span class="posts__post__date">({{post.date | date_to_string}})</span>
+                    <span class="posts__post__categories">
+                        {% for category in post.categories %}
+                        <span class="icon-{{category}}"></span>
+                        {% endfor %}
+                    </span>
+                </h3>
+                <p>
+                    {{post.excerpt}}
+                </p>
+            </section>
+        </a>
+    </li>
+    {% endfor %}
+</ul>
