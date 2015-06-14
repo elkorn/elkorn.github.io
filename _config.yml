@@ -1,2 +1,2 @@
-exclude: [.gitignore, ctl/, blocks/, dev/]
+exclude: [.gitignore, ctl/, blocks/, dev/, Dockerfile]
 permalink: pretty
