@@ -5,7 +5,8 @@ categories: [library]
 ---
 
 Reading research papers and articles oftentimes tends to be quite a daunting task.
-The main difficulties for me present themselves in the areas of understanding the argument of a paper: 
+The main difficulties for me present themselves in the areas of understanding the argument of a paper. 
+
 - I cannot seem to grasp the process that has lead to presented conclusions
 - there are parts seemingly missing from the reasoning that appear as crucial for getting the whole picture
 - ...
