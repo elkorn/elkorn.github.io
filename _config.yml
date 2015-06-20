@@ -1,2 +1,3 @@
 exclude: [.gitignore, ctl/, blocks/, dev/, Dockerfile]
+gems: ['jekyll-sass', 'jekyll-lunr-js-search']
 permalink: pretty
