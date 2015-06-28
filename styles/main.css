@@ -1,0 +1,98 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Dosis);
+/* line 3, /usr/src/app/styles/blocks.sass */
+.subpage-menu,
+.subpage-menu.Grid {
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  background: white;
+  padding: 1em;
+}
+
+/* line 13, /usr/src/app/styles/blocks.sass */
+a {
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+/* line 6, /usr/src/app/styles/main.sass */
+body {
+  background-color: #F0F0F0;
+  background-image: url("/assets/absurdidad/absurdidad.png");
+  background-repeat: repeat-x repeat-y;
+  flex-direction: column;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  align-items: center;
+}
+
+/* line 14, /usr/src/app/styles/main.sass */
+a {
+  text-decoration: none;
+  outline: 0;
+  color: #111;
+}
+/* line 19, /usr/src/app/styles/main.sass */
+a:hover {
+  color: #39CCCC;
+}
+/* line 21, /usr/src/app/styles/main.sass */
+a:active {
+  color: #217e7e;
+}
+/* line 23, /usr/src/app/styles/main.sass */
+a:visited, a:focus {
+  outline: 0;
+}
+
+/* line 27, /usr/src/app/styles/main.sass */
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 32, /usr/src/app/styles/main.sass */
+.menu__item {
+  padding: 1em;
+  background: white;
+}
+
+/* line 36, /usr/src/app/styles/main.sass */
+.subpage-menu,
+.subpage-menu.Grid {
+  font-size: xx-large;
+}
+/* line 40, /usr/src/app/styles/main.sass */
+.subpage-menu__trigger, .subpage-menu__title,
+.subpage-menu.Grid__trigger,
+.subpage-menu.Grid__title {
+  line-height: 1;
+}
+/* line 44, /usr/src/app/styles/main.sass */
+.subpage-menu__title,
+.subpage-menu.Grid__title {
+  text-align: right;
+}
+/* line 46, /usr/src/app/styles/main.sass */
+.subpage-menu__trigger,
+.subpage-menu.Grid__trigger {
+  background: transparent;
+  border: none;
+  display: inherit;
+  outline: 0;
+}
+
+/* line 52, /usr/src/app/styles/main.sass */
+.subtitle {
+  color: #aaa;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.9);
+}
+
+/* line 58, /usr/src/app/styles/main.sass */
+h1, h2, h3, .subpage-menu {
+  font-family: "Dosis", Georgia, Times, serif;
+}

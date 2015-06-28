@@ -1,0 +1,150 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@font-face {
+  font-family: "WebSymbolsLigaRegular";
+  font-family-src: url("WebSymbolsLiga-Regular.eot");
+  font-family-src: url("WebSymbolsLiga-Regular.eot?#iefix") format("embedded-opentype"), url("WebSymbolsLiga-Regular.woff") format("woff"), url("WebSymbolsLiga-Regular.ttf") format("truetype"), url("WebSymbolsLiga-Regular.svg#WebSymbolsRegular") format("svg");
+}
+/* line 7, /usr/src/app/styles/main-blue.sass */
+body, html {
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* Reset
+ * -webkit-box-sizing: border-box
+ * -moz-box-sizing: border-box
+ * box-sizing: border-box
+ * &:after, &:before
+ *   -webkit-box-sizing: border-box
+ *   -moz-box-sizing: border-box
+ *   box-sizing: border-box */
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+/* line 24, /usr/src/app/styles/main-blue.sass */
+.clearfix:before {
+  content: " ";
+  display: table;
+}
+/* line 27, /usr/src/app/styles/main-blue.sass */
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+/* line 32, /usr/src/app/styles/main-blue.sass */
+body {
+  font-family: "WebSymbolsLigaRegular", Calibri, Arial, sans-serif;
+  color: #47a3da;
+}
+
+/* line 36, /usr/src/app/styles/main-blue.sass */
+blockquote {
+  font-size: 5em;
+  text-align: center;
+}
+
+/* line 40, /usr/src/app/styles/main-blue.sass */
+a {
+  color: #aaa;
+  text-decoration: none;
+}
+/* line 43, /usr/src/app/styles/main-blue.sass */
+a:hover {
+  color: #000;
+}
+
+/* line 46, /usr/src/app/styles/main-blue.sass */
+.main, header {
+  width: 90%;
+  max-width: 70em;
+  margin: 0 auto;
+  padding: 0 4em 3.125em 6em;
+}
+
+/* line 52, /usr/src/app/styles/main-blue.sass */
+.main {
+  color: #333;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: justify;
+}
+/* line 57, /usr/src/app/styles/main-blue.sass */
+.main p {
+  font-size: 140%;
+}
+/* line 59, /usr/src/app/styles/main-blue.sass */
+.main h2 {
+  font-size: 300%;
+  font-weight: 300;
+  color: #aaa;
+  border-bottom: 1px solid #f8f8f8;
+  text-align: left;
+}
+
+/* line 66, /usr/src/app/styles/main-blue.sass */
+header {
+  padding: 2.875em 4em 1.875em 6em;
+}
+/* line 68, /usr/src/app/styles/main-blue.sass */
+header h1 {
+  font-size: 2.125em;
+  line-height: 1.3;
+  margin: 0;
+  float: left;
+  font-weight: 400;
+}
+/* line 74, /usr/src/app/styles/main-blue.sass */
+header h1 a {
+  color: #47a3da;
+}
+/* line 76, /usr/src/app/styles/main-blue.sass */
+header span {
+  display: block;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  padding: 0 0 0.6em 0.1em;
+}
+/* line 82, /usr/src/app/styles/main-blue.sass */
+header nav {
+  float: right;
+}
+/* line 84, /usr/src/app/styles/main-blue.sass */
+header nav a {
+  display: block;
+  float: left;
+  position: relative;
+  width: 2.5em;
+  height: 2.5em;
+  background: #fff;
+  border-radius: 50%;
+  color: transparent;
+  margin: 0 0.1em;
+  border: 4px solid #47a3da;
+  text-indent: -8000px;
+}
+/* line 96, /usr/src/app/styles/main-blue.sass */
+header nav a:after {
+  content: attr(data-info);
+  color: #47a3da;
+  position: absolute;
+  width: 600%;
+  top: 120%;
+  text-align: right;
+  right: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+/* line 106, /usr/src/app/styles/main-blue.sass */
+header nav a:hover {
+  background: #47a3da;
+}
+/* line 107, /usr/src/app/styles/main-blue.sass */
+header nav a:hover:after {
+  opacity: 1;
+}
+/* line 110, /usr/src/app/styles/main-blue.sass */
+header nav a:hover:before {
+  color: #fff;
+}

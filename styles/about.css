@@ -1,0 +1,13 @@
+/* line 3, /usr/src/app/styles/blocks.sass */
+.about {
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  background: white;
+  padding: 1em;
+}
+
+/* line 8, /usr/src/app/styles/blocks.sass */
+.about {
+  margin: auto;
+  max-width: 65em;
+  padding: 2em 5em;
+}
