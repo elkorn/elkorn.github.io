@@ -1,0 +1,111 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700)
+@font-face
+  font-family: 'WebSymbolsLigaRegular'
+    src: url('WebSymbolsLiga-Regular.eot')
+    src: url('WebSymbolsLiga-Regular.eot?#iefix') format('embedded-opentype'), url('WebSymbolsLiga-Regular.woff') format('woff'), url('WebSymbolsLiga-Regular.ttf') format('truetype'), url('WebSymbolsLiga-Regular.svg#WebSymbolsRegular') format('svg')
+
+body, html
+  font-size: 100%
+  padding: 0
+  margin: 0
+
+/* Reset
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  &:after, &:before
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/
+
+.clearfix
+  &:before
+    content: " "
+    display: table
+  &:after
+    content: " "
+    display: table
+    clear: both
+
+body
+  font-family: 'WebSymbolsLigaRegular', Calibri, Arial, sans-serif
+  color: #47a3da
+
+blockquote
+  font-size: 5em
+  text-align: center
+
+a
+  color: #aaa
+  text-decoration: none
+  &:hover
+    color: #000
+
+.main, header
+  width: 90%
+  max-width: 70em
+  margin: 0 auto
+  padding: 0 4em 3.125em 6em
+
+.main
+  color: #333
+  font-weight: 300
+  line-height: 1.5
+  text-align: justify
+  p
+    font-size: 140%
+  h2
+    font-size: 300%
+    font-weight: 300
+    color: #aaa
+    border-bottom: 1px solid #f8f8f8
+    text-align: left
+
+header
+  padding: 2.875em 4em 1.875em 6em
+  h1
+    font-size: 2.125em
+    line-height: 1.3
+    margin: 0
+    float: left
+    font-weight: 400
+    a
+      color: #47a3da
+  span
+    display: block
+    font-weight: 700
+    text-transform: uppercase
+    letter-spacing: 0.5em
+    padding: 0 0 0.6em 0.1em
+  nav
+    float: right
+    a
+      display: block
+      float: left
+      position: relative
+      width: 2.5em
+      height: 2.5em
+      background: #fff
+      border-radius: 50%
+      color: transparent
+      margin: 0 0.1em
+      border: 4px solid #47a3da
+      text-indent: -8000px
+      &:after
+        content: attr(data-info)
+        color: #47a3da
+        position: absolute
+        width: 600%
+        top: 120%
+        text-align: right
+        right: 0
+        opacity: 0
+        pointer-events: none
+      &:hover
+        &:after
+          opacity: 1
+        background: #47a3da
+        &:before
+          color: #fff
