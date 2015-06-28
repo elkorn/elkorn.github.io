@@ -8,7 +8,9 @@
   padding: 1em
 
 body
-  background: #FAFAFA
+  background-color: #F0F0F0
+  background-image: url('/assets/absurdidad/absurdidad.png')
+  background-repeat: repeat-x repeat-y
   /* display: flex
   flex-direction: column
   font-family: 'Open Sans', Helvetica, Arial, sans-serif
@@ -18,7 +20,7 @@ a
   text-decoration: none
   outline: 0
   &:visited
-    color: $text
+    color: $color-text
   &:visited,
   &:focus
     outline: 0
@@ -39,9 +41,14 @@ a
   &__title
     line-height: 1
 
-
   &__title
     text-align: right
+
+.subtitle
+  color: $color-subtitle
+  font-weight: normal
+  text-align: center
+  text-shadow: 1px 1px 1px rgba(255,255,255,0.9)
 
 h1,h2,h3
   font-family: 'Dosis', Georgia, Times, serif
