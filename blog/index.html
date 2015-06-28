@@ -5,17 +5,20 @@ title: All posts
 
 <ul class="posts">
     {% for post in site.posts %}
-    <li class="posts__post">
-        <a href="{{post.url}}">
+    <li>
+        <a class="posts__post" href="{{post.url}}">
             <section>
                 <h3 class="posts__post__title">
                     <span>{{post.title}}</span>
-                    <span class="posts__post__date">({{post.date | date_to_string}})</span>
-                    <span class="posts__post__categories">
+                    <section class="posts__post__meta">
+                    <span class="posts__post__meta__categories">
                         {% for category in post.categories %}
                         <span class="icon-{{category}}"></span>
                         {% endfor %}
                     </span>
+                    &nbsp;
+                    <span class="posts__post__meta__date">( {{post.date | date_to_string}} )</span>
+                    </section>
                 </h3>
                 <p>
                     {{post.excerpt}}

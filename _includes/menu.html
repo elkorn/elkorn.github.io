@@ -1,9 +1,5 @@
-<ul class="vimenu">
-    <li><a href="/" class="icon-logo">Logo</a></li>
+<ul class="vimenu" data-visible="false">
+    <li><a href="/" class="icon-logo .logo">Logo</a></li>
     <li {% if include.section == "blog" %}class="vicurrent"{% endif %}><a href="/blog" class="icon-blogger">Blog</a></li>
-    <li {% if include.section == "search" %}class="vicurrent"{% endif %}><a href="#" class="icon-search">Search</a></li>
     <li {% if include.section == "about" %}class="vicurrent"{% endif %}><a href="/about" class="icon-user-tie">Who am I?</a></li>
-    <!-- <li {% if include.section == "about" %}class="vicurrent"{% endif %}><a href="#" class="icon-location">Location</a></li> -->
-    <!-- <li {% if include.section == "about" %}class="vicurrent"{% endif %}><a href="#" class="icon-images">Images</a></li> -->
-    <!-- <li {% if include.section == "about" %}class="vicurrent"{% endif %}><a href="#" class="icon-download">Download</a></li> -->
 </ul>

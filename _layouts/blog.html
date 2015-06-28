@@ -1,25 +1,34 @@
 <html>
-    <head>
-        <title>{{page.title}} | elkorn blog</title>
-        <link href="/styles/normalize.css" rel="stylesheet"/>
-        <link href="/styles/icomoon.css" rel="stylesheet"/>
-        <link href="/styles/vertical-menu.css" rel="stylesheet"/>
-        <link href="/styles/grid.css" rel="stylesheet"/>
-        <link href="/styles/main.css" rel="stylesheet"/>
-        <link href="/styles/blog.css" rel="stylesheet"/>
-        <link href="/styles/menu.css" rel="stylesheet"/>
-    </head>
-    <body>
-        {% include menu.html section='blog' %}
-        <header class="clearfix">
-            <!-- <span>Blog</span> -->
-            <h1>Blog</h1>
-            {% include search.html %}
-        </header>
-        <article class="main">
-            <h2>{{page.title}}</h2>
-            {{content}}
-        </article>
-        {% include scripts.html %}
-    </body>
+
+<head>
+    <title>{{page.title}} | elkorn blog</title>
+    {% include styles.html %}
+    <link href="/styles/grid.css" rel="stylesheet" />
+    <link href="/styles/blog.css" rel="stylesheet" />
+    <link href="/styles/push-menu.css" rel="stylesheet" />
+</head>
+
+<body>
+    <section class="container">
+        <section id="mp-pusher" class="mp-pusher">
+            {% include mp-menu.html %}
+            <section class="scroller">
+                <section class="scroller-inner">
+                    <header class="clearfix subpage-menu Grid">
+                        <a href="#" id="trigger" class="subpage-menu__trigger icon-menu Grid-cell"></a>
+                        <a class="subpage-menu__title" href="/blog">Blog</a>
+                    </header>
+                    <article class="main">
+                        <h2>{{page.title}}</h2>
+                        {{content}}
+                    </article>
+                </section>
+            </section>
+        </section>
+        <!-- /pusher -->
+    </section>
+
+    {% include scripts.html %}
+</body>
+
 </html>
