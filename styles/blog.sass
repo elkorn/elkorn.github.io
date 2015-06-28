@@ -1,4 +1,5 @@
-@import main
+@import blocks
+@import icomoon
 
 .posts
   list-style-type: none
@@ -6,10 +7,12 @@
 
   &__post
     @extend %block
-    color: #111
+    @extend %content
     display: block
     margin-bottom: 1em
     opacity: 0.8
+    &:hover
+      color: $color-text
 
     &__title
       margin-top: 0
@@ -22,6 +25,12 @@
         vertical-align: middle
 
       &__categories
+        &__category
+          @extend %icon
+          &--personal
+            @extend .icon-user-tie
+          &--research
+            @extend .icon-library
         *
           vertical-align: baseline
 
@@ -36,6 +45,16 @@
 
     section
       flex: 59
-      
+
 .post
   @extend %block
+  @extend %content
+  margin: auto
+  margin-bottom: 2em
+
+  p, li
+    line-height: 2
+
+#disqus_thread
+  @extend %content
+  padding: 0

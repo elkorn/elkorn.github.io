@@ -1,5 +1,0 @@
----
-layout: placeholder
----
-
-# Hello.

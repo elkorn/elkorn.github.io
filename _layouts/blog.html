@@ -1,35 +1,11 @@
-<html>
+---
+layout: default
+additionalStyles: [blog]
+section: Blog
+---
 
-<head>
-    <title>{{page.title}} | elkorn blog</title>
-    {% include styles.html %}
-    <link href="/styles/grid.css" rel="stylesheet" />
-    <link href="/styles/blog.css" rel="stylesheet" />
-    <link href="/styles/push-menu.css" rel="stylesheet" />
-    <link href="/styles/ca-menu.css" rel="stylesheet" />
-</head>
+{{content}}
 
-<body>
-    <section class="container">
-        <section id="mp-pusher" class="mp-pusher">
-            {% include mp-menu.html %}
-            <section class="scroller">
-                <section class="scroller-inner">
-                    <header class="clearfix subpage-menu Grid">
-                        <a href="#" id="trigger" class="subpage-menu__trigger icon-menu Grid-cell"></a>
-                        <a class="subpage-menu__title" href="/blog">Blog</a>
-                    </header>
-                    <article class="main">
-                        <h2 class="subtitle">{{page.title}}</h2>
-                        {{content}}
-                    </article>
-                </section>
-            </section>
-        </section>
-        <!-- /pusher -->
-    </section>
-
-    {% include scripts.html %}
-</body>
-
-</html>
+{% if page.comments %}
+{% include disqus.html %}
+{% endif %}

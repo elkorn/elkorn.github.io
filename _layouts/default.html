@@ -1,17 +1,29 @@
----
----
 <html>
-    <head>
-        <title>elkorn</title>
-        {% include styles.html %}
-    </head>
-    <body>
-        <header class="clearfix">
-            <span>About me</span>
-            <h1>Korneliusz Caputa</h1>
-        </header>
-        <article class="post">
-            {{content}}
-        </article>
-    </body>
+
+<head>
+    <title>{{page.title}} | elkorn</title>
+    {% include styles.html additional=page.additionalStyles %}
+</head>
+
+<body>
+    <section class="container">
+        <section id="mp-pusher" class="mp-pusher">
+            {% include mp-menu.html %}
+            <section class="scroller">
+                <section class="scroller-inner">
+                    <header class="clearfix subpage-menu Grid">
+                        <a href="#" id="trigger" class="subpage-menu__trigger icon-menu Grid-cell"></a>
+                        <a class="subpage-menu__title" href="/blog">elkorn >>= {{page.section}}</a>
+                    </header>
+                    <h2 class="subtitle">{{page.title}}</h2>
+                    {{content}}
+                </section>
+            </section>
+        </section>
+        <!-- /pusher -->
+    </section>
+
+    {% include scripts.html %}
+</body>
+
 </html>
