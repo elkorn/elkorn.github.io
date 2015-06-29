@@ -89,6 +89,7 @@ If you don't have any issues with that and just want to focus on optimizing the 
 Taking notes may seem pretty obvious, but it's important that they be useful enough to serve as a reliable anchor.
 You need to be able to get back to them after some time and bring the topic back into your head.
 Two aspects are of utmost importance here:
+
 1. Leave a lot of space in the notes for your comments. Write down questions, second thoughts, cross-references and so on.
 1. Make it a priority to express the encountered ideas in your own words.
     This is one of the more efficient ways of internalizing the paper's contents.
