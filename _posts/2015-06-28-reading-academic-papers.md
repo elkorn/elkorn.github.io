@@ -135,6 +135,7 @@ Or maybe "too much detail" or sidetracking issues?
 In the state of mind of having internalized a difficult concept, it tends to be difficult to take a step back and look at it in an objective way.
 Even more so trying to assume the point of view of a less experienced reader.
 In academic papers, this leads most often to the following issues:
+
 - Leaving out logical connections. These may seem of little value to the author, but are often peritent to the reader. They usually bridge the gap between obscurity and clarity.
 - Lack of a clear literary backbone. Less important details are often given too much attention. This upsets the balance between vital and ancillary information that the reader should receive. This leads, of course, to confusion. The reader is more prone to get sidetracked and lose the main point of the argument by following those digressions.
 - Long chain of back-referrals. The core of this issue seems like the one stemming from deep submersion in the topic.
