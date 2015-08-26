@@ -51,6 +51,7 @@ Firstly, the reader needs to focus on "embracing" the paper mentally.
 Secondly, to cement the understanding of the matter and argument, an individual critique of it should be developed.
 
 ### Step 1: Skimming
+
 1. Read the abstract if provided.
 1. Read the introduction.
 1. Read the conclusion.
@@ -59,12 +60,12 @@ Secondly, to cement the understanding of the matter and argument, an individual 
     - the idea here is to get a feel for the style and flow of the paper
         - is it methodological, empirical, tehoretical, conceptual or something else?
         - is it a theoretical contribution, an empirical application of a theory, a critique or something else?
-
 1. Read the whole paper quickly.
     - skip the equations, figures, tables, code listings etc.
 1. Go back again and carefully read the whole thing, focusing on the most "meaty" parts.
 
 ### Step 2: Analysis through critique
+
 1. Ask if the reasoning makes sense.
     - Is it internally consistent?
     - Is it substantiated by arguments and evidence? What is the quality of those?
