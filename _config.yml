@@ -2,3 +2,6 @@ exclude: [.gitignore, ctl/, blocks/, dev/, Dockerfile]
 # gems: ['jekyll-sass', 'jekyll-lunr-js-search']
 gems: ['jekyll-sass']
 permalink: pretty
+name: elkorn blog
+description: Software engineering, functional programming, wannabe academic study :)
+url: http://elkorn.github.io
