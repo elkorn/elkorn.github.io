@@ -51,6 +51,7 @@ Firstly, the reader needs to focus on "embracing" the paper mentally.
 Secondly, to cement the understanding of the matter and argument, an individual critique of it should be developed.
 
 ### Step 1: Skimming
+
 1. Read the abstract if provided.
 1. Read the introduction.
 1. Read the conclusion.
@@ -59,12 +60,12 @@ Secondly, to cement the understanding of the matter and argument, an individual 
     - the idea here is to get a feel for the style and flow of the paper
         - is it methodological, empirical, tehoretical, conceptual or something else?
         - is it a theoretical contribution, an empirical application of a theory, a critique or something else?
-
 1. Read the whole paper quickly.
     - skip the equations, figures, tables, code listings etc.
 1. Go back again and carefully read the whole thing, focusing on the most "meaty" parts.
 
 ### Step 2: Analysis through critique
+
 1. Ask if the reasoning makes sense.
     - Is it internally consistent?
     - Is it substantiated by arguments and evidence? What is the quality of those?
@@ -89,6 +90,7 @@ If you don't have any issues with that and just want to focus on optimizing the 
 Taking notes may seem pretty obvious, but it's important that they be useful enough to serve as a reliable anchor.
 You need to be able to get back to them after some time and bring the topic back into your head.
 Two aspects are of utmost importance here:
+
 1. Leave a lot of space in the notes for your comments. Write down questions, second thoughts, cross-references and so on.
 1. Make it a priority to express the encountered ideas in your own words.
     This is one of the more efficient ways of internalizing the paper's contents.
@@ -134,6 +136,7 @@ Or maybe "too much detail" or sidetracking issues?
 In the state of mind of having internalized a difficult concept, it tends to be difficult to take a step back and look at it in an objective way.
 Even more so trying to assume the point of view of a less experienced reader.
 In academic papers, this leads most often to the following issues:
+
 - Leaving out logical connections. These may seem of little value to the author, but are often peritent to the reader. They usually bridge the gap between obscurity and clarity.
 - Lack of a clear literary backbone. Less important details are often given too much attention. This upsets the balance between vital and ancillary information that the reader should receive. This leads, of course, to confusion. The reader is more prone to get sidetracked and lose the main point of the argument by following those digressions.
 - Long chain of back-referrals. The core of this issue seems like the one stemming from deep submersion in the topic.
