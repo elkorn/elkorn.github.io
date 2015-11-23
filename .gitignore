@@ -2,3 +2,4 @@ _site/
 blocks/
 .sass-cache/
 .jekyll-metadata
+.tern-port
