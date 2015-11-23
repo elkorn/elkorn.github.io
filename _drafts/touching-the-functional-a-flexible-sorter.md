@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Touching the Functional: a flexible sorting abstraction in JS
-categories: [research]
+categories: [code]
 ---
 
 Domain-specific sorting rules.
